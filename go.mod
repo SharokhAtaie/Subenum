@@ -1,4 +1,4 @@
-module github.com/SharokhAtaie/subenum
+module github.com/SharokhAtaie/Subenum
 
 go 1.19
 
