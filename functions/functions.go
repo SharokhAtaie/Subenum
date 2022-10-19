@@ -4,8 +4,8 @@ import (
 	"github.com/tidwall/gjson"
 	"regexp"
 	"strings"
-	"subenumeration/commands"
-	"subenumeration/requests"
+	"github.com/SharokhAtaie/subdomain-enumeration/commands"
+	"github.com/SharokhAtaie/subdomain-enumeration/requests"
 )
 
 // crt.sh
