@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/subdomain enumeration.iml" filepath="$PROJECT_DIR$/.idea/subdomain enumeration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Subenum.iml" filepath="$PROJECT_DIR$/.idea/Subenum.iml" />
     </modules>
   </component>
 </project>
