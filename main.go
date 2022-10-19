@@ -6,9 +6,9 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"io/ioutil"
 	"log"
-	"github.com/SharokhAtaie/subdomain-enumeration/banner"
-	"github.com/SharokhAtaie/subdomain-enumeration/commands"
-	"github.com/SharokhAtaie/subdomain-enumeration/functions"
+	"github.com/SharokhAtaie/Subenum/banner"
+	"github.com/SharokhAtaie/Subenum/commands"
+	"github.com/SharokhAtaie/Subenum/functions"
 )
 
 type options struct {
