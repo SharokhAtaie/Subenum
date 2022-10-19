@@ -1,4 +1,4 @@
-module github.com/SharokhAtaie/subdomain-enumeration
+module github.com/SharokhAtaie/subenum
 
 go 1.19
 
