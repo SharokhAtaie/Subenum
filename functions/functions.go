@@ -16,13 +16,6 @@ func CRtsh(url string) string {
 	return crtCom
 }
 
-// omnisint.io
-func Omnisint(url string) string {
-	omnisint := requests.OmnisintIo(url)
-	omnisintbeauty := commands.Beauty(omnisint)
-	return omnisintbeauty
-}
-
 func Jldcme(url string) string {
 	// jldc.me
 	jldc := requests.JldcMe(url)
