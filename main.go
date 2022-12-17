@@ -74,16 +74,13 @@ func FinalSubs(domain string) string {
 	// crt.sh
 	crt := functions.CRtsh("https://crt.sh/?q=%." + domain + "&output=json")
 
-	// omni
-	omn := functions.Omnisint("https://sonar.omnisint.io/subdomains/" + domain)
-
 	// jldc.me
 	jldc := functions.Jldcme("https://jldc.me/anubis/subdomains/" + domain)
 
 	// abusedb.com
 	abuse := functions.AbuseDb("https://www.abuseipdb.com/whois/" + domain)
 	beautyabuse := commands.Sed2(abuse, domain)
-	data := crt + beautyabuse + jldc + omn
+	data := crt + beautyabuse + jldc
 	final := commands.Sort(data)
 	return final
 }
